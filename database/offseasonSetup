@@ -1,0 +1,546 @@
+{
+  "decrees": [
+    {
+      "id": "distribute_bats",
+      "type": 61,
+      "title": "Bats",
+      "description": "Swing Away. Go on the offensive while providing a Global Hitting Boost."
+    },
+    {
+      "id": "distribute_caps",
+      "type": 62,
+      "title": "Caps",
+      "description": "Don't Lose Your Heads. Keep your wits about you while providing a global Pitching Boost."
+    },
+    {
+      "id": "distribute_shoes",
+      "type": 63,
+      "title": "Shoes",
+      "description": "Flight or Flight. Run away while providing global Baserunning Boost."
+    },
+    {
+      "id": "distribute_gloves",
+      "type": 64,
+      "title": "Gloves",
+      "description": "Catch and Release. Keep threats in front of you while providing a global Defense Boost."
+    }
+  ],
+  "blessings": [
+    {
+      "id": "rotation_maximalist",
+      "type": 165,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          1
+        ],
+        "mod": "MAXIMALIST",
+        "modType": 0
+      },
+      "title": "Sky's The Limit",
+      "subheader": "Brought to you by @Skymap Games@https://skymapgames.com/blaseball/",
+      "description": "Your entire Team's Rotation will become Maximalists Permanently."
+    },
+    {
+      "id": "mod_team_afterparty_week",
+      "type": 168,
+      "value": 1,
+      "title": "Afterparty",
+      "description": "Whenever your Team is losing during the First Week of Next Season, they will have a chance of gaining Party Time Boosts."
+    },
+    {
+      "id": "mod_team_middling_season",
+      "type": 169,
+      "value": 1,
+      "title": "Middling",
+      "description": "Your Team will Overperform during Next Season's Midseason."
+    },
+    {
+      "id": "cleanup_hitter_high_pressure",
+      "type": 166,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          0
+        ],
+        "index": 3,
+        "mod": "HIGH_PRESSURE",
+        "modType": 1
+      },
+      "title": "Clutch Up",
+      "description": "Your Cleanup Hitter (the 4th spot in your Lineup) will gain the High Pressure Mod for the following Season."
+    },
+    {
+      "id": "team_0_blood_type",
+      "type": 170,
+      "value": 1,
+      "title": "Absolute Zero",
+      "description": "Oh. Give your Team O Blood."
+    },
+    {
+      "id": "team_h20_blood_type",
+      "type": 171,
+      "value": 1,
+      "title": "Water Logged",
+      "description": "Stay Hydrated. Give your Team H2O Blood."
+    },
+    {
+      "id": "random_player_affinity_for_crows",
+      "type": 167,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          0,
+          1
+        ],
+        "playerSelection": 0,
+        "mod": "AFFINITY_FOR_CROWS",
+        "modType": 0
+      },
+      "title": "Bird Brain",
+      "description": "A Random Player on your Team will gain Affinity For Crows Permanently."
+    },
+    {
+      "id": "worst_hitter_fourth_strike",
+      "type": 167,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          0,
+          1
+        ],
+        "playerSelection": 2,
+        "mod": "EXTRA_STRIKE",
+        "modType": 0
+      },
+      "title": "Mulligan",
+      "description": "Your Team's worst hitter will gain the Fourth Strike Permanently."
+    },
+    {
+      "id": "team_active_ranged_defense",
+      "type": 160,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          0,
+          1
+        ],
+        "min": ".01",
+        "max": ".04",
+        "rating": 2
+      },
+      "title": "Defense Practice",
+      "description": "Your Team's Lineup and Rotation will have their Defense Boosted from 1% to 4%."
+    },
+    {
+      "id": "team_lineup_ranged_baserunning",
+      "type": 160,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          0
+        ],
+        "min": ".01",
+        "max": ".04",
+        "rating": 3
+      },
+      "title": "Running Practice",
+      "description": "Your Team's Lineup will have their Baserunning Boosted from 1% to 4%."
+    },
+    {
+      "id": "team_rotation_ranged_pitching",
+      "type": 160,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          1
+        ],
+        "min": ".01",
+        "max": ".04",
+        "rating": 1
+      },
+      "title": "Pitching Practice",
+      "description": "Your Team's Rotation will have their Pitching Boosted from 1% to 4%."
+    },
+    {
+      "id": "team_lineup_ranged_hitting",
+      "type": 160,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          0
+        ],
+        "min": ".01",
+        "max": ".04",
+        "rating": 0
+      },
+      "title": "Batting Practice",
+      "description": "Your Team's Lineup will have their Hitting Boosted from 1% to 4%."
+    },
+    {
+      "id": "team_shadows_ranged_defense",
+      "type": 160,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          2,
+          3
+        ],
+        "min": ".01",
+        "max": ".12",
+        "rating": 2
+      },
+      "title": "Shadow Defense Practice",
+      "description": "Your Team's Shadows will have their Defense Boosted from 1% to 12%."
+    },
+    {
+      "id": "team_shadows_ranged_baserunning",
+      "type": 160,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          2,
+          3
+        ],
+        "min": ".01",
+        "max": ".12",
+        "rating": 3
+      },
+      "title": "Shadow Running Practice",
+      "description": "Your Team's Shadows will have their Baserunning Boosted from 1% to 12%."
+    },
+    {
+      "id": "team_shadows_ranged_pitching",
+      "type": 160,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          2,
+          3
+        ],
+        "min": ".01",
+        "max": ".12",
+        "rating": 1
+      },
+      "title": "Shadow Pitching Practice",
+      "description": "Your Team's Shadows will have their Pitching Boosted from 1% to 12%."
+    },
+    {
+      "id": "team_shadows_ranged_hitting",
+      "type": 160,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          2,
+          3
+        ],
+        "min": ".01",
+        "max": ".12",
+        "rating": 0
+      },
+      "title": "Shadow Batting Practice",
+      "description": "Your Team's Shadows will have their Hitting Boosted from 1% to 12%."
+    },
+    {
+      "id": "move_worst_hitter_last",
+      "type": 164,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          0,
+          1
+        ],
+        "destinationLocation": [
+          0
+        ],
+        "playerSelection": 2,
+        "index": 0,
+        "fromFirst": false
+      },
+      "title": "Easy Out",
+      "description": "Move the worst Hitter on your Team to the last spot in your Lineup."
+    },
+    {
+      "id": "move_best_baserunner_first",
+      "type": 164,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          0,
+          1
+        ],
+        "destinationLocation": [
+          0
+        ],
+        "playerSelection": 5,
+        "index": 0,
+        "fromFirst": true
+      },
+      "title": "Lead Off",
+      "description": "Move the best Baserunner on your Team to the first position in your Lineup."
+    },
+    {
+      "id": "recruit_syphon_player",
+      "type": 163,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          0,
+          1
+        ],
+        "mod": "SIPHON"
+      },
+      "title": "Blood Pact",
+      "description": "Recruit a Random Player with the Siphon Modification to your Team."
+    },
+    {
+      "id": "recruit_perk_player",
+      "type": 163,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          0,
+          1
+        ],
+        "mod": "PERK"
+      },
+      "title": "Fringe Benefit",
+      "description": "Recruit a Random Player with the Perk Modification to your Team."
+    },
+    {
+      "id": "random_player_lineup_divinity_ranged",
+      "type": 162,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          0
+        ],
+        "playerSelection": 0,
+        "stat": 4,
+        "min": "-.2",
+        "max": ".6"
+      },
+      "title": "Epiphany",
+      "description": "A Random Player from your Team's Lineup will have their Divinity Boosted from -20% to 60%."
+    },
+    {
+      "id": "random_player_lineup_musclitude_ranged",
+      "type": 162,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          0
+        ],
+        "stat": 5,
+        "playerSelection": 0,
+        "min": "-.2",
+        "max": ".6"
+      },
+      "title": "Dirty Bulk",
+      "description": "A Random Player from your Team's Lineup will have their Musclitude Boosted from -20% to 60%."
+    },
+    {
+      "id": "random_player_rotation_overpowerment",
+      "type": 161,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          1
+        ],
+        "stat": 18,
+        "playerSelection": 0,
+        "amount": ".4"
+      },
+      "title": "Living Single",
+      "description": "A Random Player from your Team's Rotation will have their Overpowerment Boosted by 40%."
+    },
+    {
+      "id": "random_player_lineup_groundfriction",
+      "type": 161,
+      "value": 1,
+      "metadata": {
+        "sourceLocation": [
+          0
+        ],
+        "stat": 13,
+        "playerSelection": 0,
+        "amount": ".4"
+      },
+      "title": "Triple Crown",
+      "description": "A Random Player from your Team's Lineup will have their Ground Friction Boosted by 40%."
+    }
+  ],
+  "wills": [
+    {
+      "id": "idols_steal",
+      "title": "Plunder",
+      "description": "Steal a Player from the Idols board. Send a random Player from your Team back.",
+      "info": [
+        {
+          "type": 1,
+          "description": "Which Idol do you want to steal?",
+          "filters": {
+            "leagueLocation": "idolsBoard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "equivalent_exchange",
+      "title": "Equivalent Exchange",
+      "description": "Swap a Player from a Team in the opposite Subleague with a Player from your Team. They must be within 2 combined stars of each other.",
+      "info": [
+        {
+          "type": 0,
+          "description": "Which team do you want to swap with?",
+          "filters": {
+            "leagueLocation": "oppSubleague"
+          }
+        },
+        {
+          "type": 1,
+          "description": "What player do you want to swap for?",
+          "filters": {
+            "leagueLocation": "inputTeam",
+            "position": "all"
+          }
+        },
+        {
+          "type": 1,
+          "description": "What player do you want to send back?",
+          "filters": {
+            "leagueLocation": "myTeam",
+            "position": "all",
+            "equivalence": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "id": "shadows_call_up",
+      "title": "Foreshadow",
+      "description": "Swap a Player from your Shadows to your active roster.",
+      "info": [
+        {
+          "type": 1,
+          "description": "What player from the Shadows do you want to call up to the active roster?",
+          "filters": {
+            "leagueLocation": "myTeam",
+            "position": "shadows"
+          }
+        },
+        {
+          "type": 1,
+          "description": "What player from your active roster do you want to send to the Shadows?",
+          "filters": {
+            "leagueLocation": "myTeam",
+            "position": "all"
+          }
+        }
+      ]
+    },
+    {
+      "id": "player_move",
+      "title": "Move",
+      "description": "Move a Player on your Team to the desired location on your Roster.",
+      "info": [
+        {
+          "type": 1,
+          "description": "Which Player would you like to move?",
+          "filters": {
+            "leagueLocation": "myTeam",
+            "position": "any"
+          }
+        },
+        {
+          "type": 3,
+          "description": "Which location do you want to move them?",
+          "filters": {
+            "position": "any"
+          }
+        }
+      ]
+    },
+    {
+      "id": "player_boost_targeted",
+      "title": "Transfuse",
+      "description": "Boost a Player on your Team by 15% to 30% in a Stat Category of your choice, but Impair them in a Random other Category.",
+      "info": [
+        {
+          "type": 1,
+          "description": "Which player do you want to Boost?",
+          "filters": {
+            "leagueLocation": "myTeam",
+            "position": "all"
+          }
+        },
+        {
+          "type": 4,
+          "description": "Which stat category do you want to Boost?",
+          "filters": {
+            "ratings": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "alternate_trust",
+      "title": "Alternate Trust",
+      "description": "Call in an Alternate for a Player on your Team, with a mystery Benefit.",
+      "info": [
+        {
+          "type": 1,
+          "description": "Which player do you want to call an Alternate Trust for?",
+          "filters": {
+            "leagueLocation": "myTeam",
+            "position": "all"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mod_reroll",
+      "title": "Reform",
+      "description": "Re-roll an eligible Permanent Modification for a Player on your Team.",
+      "info": [
+        {
+          "type": 1,
+          "description": "Which player do you want to Reform?",
+          "filters": {
+            "leagueLocation": "myTeam",
+            "position": "all",
+            "hasMods": true
+          }
+        },
+        {
+          "type": 2,
+          "description": "Which mod would you like to Re-roll?",
+          "filters": {}
+        }
+      ]
+    },
+    {
+      "id": "season_team_mod",
+      "title": "Enrich",
+      "description": "Pick a modification for your Team next season.",
+      "info": [
+        {
+          "type": 2,
+          "description": "Which mod do you want?",
+          "filters": {
+            "mods": [
+              "EXTRA_STRIKE",
+              "HIGH_PRESSURE",
+              "LIFE_OF_PARTY",
+              "HOME_FIELD",
+              "AFFINITY_FOR_CROWS",
+              "TRAVELING"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "decreesToPass": 1,
+  "willsToPass": 2
+}
