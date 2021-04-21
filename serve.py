@@ -6,8 +6,12 @@ from aiohttp import web
 
 @web.middleware
 async def default_middleware(request, handler):
+    if request.method == 'POST':
+        return web.Response(text='{}')
     try:
         response = await handler(request)
+        if request.path.startswith('/database/') or request.path.startswith('/api/'):
+            response.content_type = 'application/json'
         if response.status != 404 and response.status != 403:
             return response
     except web.HTTPException as ex:
