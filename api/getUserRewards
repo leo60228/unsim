@@ -1,5 +1,7 @@
 {
   "coins": 1000,
   "toasts": [],
-  "lightMode": false
+  "lightMode": false,
+  "votes": 1,
+  "peanuts": 10
 }

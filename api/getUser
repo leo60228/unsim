@@ -33,5 +33,7 @@
     "VOTES_CAST": 0,
     "SNACKS_BOUGHT": 1,
     "SNACK_UPGRADES": 98
-  }
+  },
+  "votes": 1,
+  "peanuts": 10
 }
